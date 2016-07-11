@@ -1,0 +1,952 @@
+.invalid-container {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    margin-left: -350px;
+    margin-top: -270px;
+    width: 700px;
+    height: 540px;
+    font-family: "微软雅黑";
+    /*background-color: #ECEEF1;*/
+}
+
+.invalid-container .key {
+    position: absolute;
+    right: 403px;
+    bottom: 358px;
+    width: 92px;
+    height: 91px;
+    background: url("img/invalidUdataUser/key.png") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+
+    opacity: 0;
+    -webkit-animation-name: key-fade-out;
+    -moz-animation-name: key-fade-out;
+    -o-animation-name: key-fade-out;
+    animation-name: key-fade-out;
+    -webkit-animation-delay: 0.4s;
+    -moz-animation-delay: 0.4s;
+    -o-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+    -webkit-animation-duration: 0.5s;
+    -moz-animation-duration: 0.5s;
+    -o-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease-in;
+    -o-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.invalid-container .mascot {
+    position: absolute;
+    left: 50%;
+    margin-left: -54px;
+    top: 50%;
+    margin-top: -58px;
+    width: 108px;
+    height: 116px;
+    opacity: 0;
+    background: url("img/invalidUdataUser/mascot.png") no-repeat;
+    -webkit-animation-name: mascot-up;
+    -moz-animation-name: mascot-up;
+    -o-animation-name: mascot-up;
+    animation-name: mascot-up;
+    -webkit-animation-duration: 0.1s;
+    -moz-animation-duration: 0.1s;
+    -o-animation-duration: 0.1s;
+    animation-duration: 0.1s;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-delay: 0.42s;
+    -moz-animation-delay: 0.42s;
+    -o-animation-delay: 0.42s;
+    animation-delay: 0.42s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+/*.invalid-container .mascot-wrap {*/
+    /*position: absolute;*/
+    /*left: 50%;*/
+    /*margin-left: -54px;*/
+    /*top: 59%;*/
+    /*margin-top: -58px;*/
+    /*width: 108px;*/
+    /*height: 116px;*/
+/*}*/
+
+.invalid-container .bubble {
+    font-size: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-left: 8px;
+    position: absolute;
+    left: 365px;
+    bottom: 362px;
+    width: 252px;
+    height: 145px;
+    background: url("img/invalidUdataUser/bubble.png") no-repeat;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+
+    opacity: 0;
+    -webkit-animation-name: bubble-fade-out;
+    -moz-animation-name: bubble-fade-out;
+    -o-animation-name: bubble-fade-out;
+    animation-name: bubble-fade-out;
+    -webkit-animation-delay: 0.4s;
+    -moz-animation-delay: 0.4s;
+    -o-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+    -webkit-animation-duration: 0.5s;
+    -moz-animation-duration: 0.5s;
+    -o-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease-in;
+    -o-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.invalid-container .box-etc-wrap {
+    width: 170px;
+    height: 196px;
+    /* background: pink; */
+    position: absolute;
+    left: 50%;
+    top: 32%;
+    margin-left: -85px;
+    opacity: 0;
+    -webkit-animation-name: expand;
+    -moz-animation-name: expand;
+    -o-animation-name: expand;
+    animation-name: expand;
+    -webkit-animation-delay: 0.3s;
+    -moz-animation-delay: 0.3s;
+    -o-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+    -webkit-animation-duration: 0.1s;
+    -moz-animation-duration: 0.1s;
+    -o-animation-duration: 0.1s;
+    animation-duration: 0.1s;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.invalid-container .bubble p {
+    font-size: inherit;
+    margin: 8px auto;
+    color: #3d4256;
+    font-weight: bold;
+    text-align: center;
+}
+
+.invalid-container .box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -83px;
+    margin-top: -56px;
+    width: 167px;
+    height: 112px;
+    background: url("img/invalidUdataUser/box.png");
+}
+
+.invalid-container .lock,
+.invalid-container .phantom-lock{
+    position: absolute;
+    left: 50%;
+    top: 46%;
+    margin-left: -19px;
+    margin-top: -25px;
+    width: 38px;
+    height: 50px;
+    background: url("img/invalidUdataUser/lock.png");
+}
+.invalid-container .phantom-lock {
+    opacity: 0;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.invalid-container .shadow {
+    position: absolute;
+    left: 50%;
+    top: 84%;
+    margin-left: -65px;
+    width: 130px;
+    height: 15px;
+    background: url("img/invalidUdataUser/shadow.png");
+}
+
+/*Sorry-tip-start*/
+.invalid-container .tip {
+    width: 100%;
+    position: absolute;
+    bottom: 85px;
+    text-align: center;
+    color: #979ba8;
+    font-size: 19px;
+    /*font-weight: bold;*/
+}
+
+.invalid-container .tip p {
+    margin: 10px 0;
+    opacity: 0;
+    -webkit-animation-name: sorry-fade-out;
+    -moz-animation-name: sorry-fade-out;
+    -o-animation-name: sorry-fade-out;
+    animation-name: sorry-fade-out;
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+    -o-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-duration: 0.2s;
+    -moz-animation-duration: 0.2s;
+    -o-animation-duration: 0.2s;
+    animation-duration: 0.2s;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.invalid-container .tip .authorization-doc {
+    text-decoration: none;
+    color: #6ECBCA;
+}
+
+.invalid-container .tip .mail {
+    text-decoration: none;
+    color: #979ba8;
+}
+
+/*Sorry-tip-end*/
+
+/*返回登录按钮-start*/
+.invalid-container .login {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    margin-left: -79px;
+    bottom: 10px;
+    display: block;
+    width: 158px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 23px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    background-color: #2CBFBE;
+    color: white;
+    text-decoration: none;
+
+    opacity: 0;
+    -webkit-animation-name: login-fade-out;
+    -moz-animation-name: login-fade-out;
+    -o-animation-name: login-fade-out;
+    animation-name: login-fade-out;
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+    -o-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+    -webkit-animation-duration: 0.3s;
+    -moz-animation-duration: 0.3s;
+    -o-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: ease;
+    -moz-animation-timing-function: ease;
+    -o-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+.invalid-container .phantom-login {
+    opacity: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    margin-left: -79px;
+    bottom: 10px;
+    width: 158px;
+    height: 55px;
+    line-height: 55px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    background-color: #2CBFBE;
+}
+/*返回登录按钮-end*/
+
+
+
+/*箱子动画-start*/
+@keyframes expand{
+    0% {
+        opacity: 1;
+        transform: scale(0.2);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+/*箱子动画-end*/
+
+/*吉祥物动画-start*/
+@keyframes mascot-up {
+    0% {
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+    }
+    50% {
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: translateY(-57px);
+        -moz-transform: translateY(-57px);
+        -ms-transform: translateY(-57px);
+        -o-transform: translateY(-57px);
+        transform: translateY(-57px);
+    }
+}
+/*吉祥物动画-end*/
+
+/*Sorry提示文字动画-start*/
+@keyframes sorry-fade-out {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/*Sorry提示文字动画-end*/
+
+/*返回登录动画-start*/
+@keyframes login-fade-out {
+    0%{
+        opacity: 1;
+        -webkit-transform: scale(0.5);
+        -moz-transform: scale(0.5);
+        -ms-transform: scale(0.5);
+        -o-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+}
+/*返回登录动画-end*/
+
+/*泡泡的动画-start*/
+@keyframes bubble-fade-out {
+    0% {
+        font-size: 0;
+        opacity: 0;
+        width: 200px;
+        height: 0;
+        left: 300px;
+        bottom: 335px;
+        -webkit-transform: scale(0.1);
+        -moz-transform: scale(0.1);
+        -ms-transform: scale(0.1);
+        -o-transform: scale(0.1);
+        transform: scale(0.1);
+    }
+    50%{
+        font-size: 20px;
+        opacity: 1;
+        width: 252px;
+        height: 145px;
+        left: 365px;
+        bottom: 362px;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+    /*70%{*/
+        /*font-size: 16px;*/
+    /*}*/
+    80% {
+        font-size: 20px;
+        opacity: 1;
+        width: 245px;
+        height: 140px;
+        -webkit-transform: scale(0.95);
+        -moz-transform: scale(0.95);
+        -ms-transform: scale(0.95);
+        -o-transform: scale(0.95);
+        transform: scale(0.95);
+    }
+    100%{
+        font-size: 20px;
+        opacity: 1;
+        width: 252px;
+        height: 145px;
+        left: 365px;
+        bottom: 362px;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+}
+/*泡泡的动画-end*/
+
+/*钥匙动画-start*/
+@keyframes key-fade-out {
+    0% {
+        opacity: 0;
+        width: 20px;
+        height: 0;
+        right: 380px;
+        bottom: 335px;
+        -webkit-transform: scale(0.1);
+        -moz-transform: scale(0.1);
+        -ms-transform: scale(0.1);
+        -o-transform: scale(0.1);
+        transform: scale(0.1);
+    }
+    50%{
+        opacity: 1;
+        width: 92px;
+        height: 91px;
+        right: 403px;
+        bottom: 358px;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+    /*70%{*/
+    /*font-size: 16px;*/
+    /*}*/
+    80% {
+        opacity: 1;
+        width: 86px;
+        height: 85px;
+        -webkit-transform: scale(0.95);
+        -moz-transform: scale(0.95);
+        -ms-transform: scale(0.95);
+        -o-transform: scale(0.95);
+        transform: scale(0.95);
+    }
+    100%{
+        opacity: 1;
+        width: 92px;
+        height: 91px;
+        right: 403px;
+        bottom: 358px;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+}
+/*钥匙动画-end*/
+
+/*进入页面之后，hover时添加的类做调整-start*/
+.after-init *{
+    opacity: 1 !important;
+}
+.after-init .mascot {
+    top: 50%;
+    -webkit-animation-name: after-init-mascot-up;
+    -moz-animation-name: after-init-mascot-up;
+    -o-animation-name: after-init-mascot-up;
+    animation-name: after-init-mascot-up;
+    -webkit-animation-delay: 0s;
+    -moz-animation-delay: 0s;
+    -o-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-duration: 0.3s;
+    -moz-animation-duration: 0.3s;
+    -o-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+}
+@keyframes after-init-mascot-up {
+    0% {
+        -webkit-transform: translateY(-44px);
+        -moz-transform: translateY(-44px);
+        -ms-transform: translateY(-44px);
+        -o-transform: translateY(-44px);
+        transform: translateY(-44px);
+    }
+    100%{
+        -webkit-transform: translateY(-57px);
+        -moz-transform: translateY(-57px);
+        -ms-transform: translateY(-57px);
+        -o-transform: translateY(-57px);
+        transform: translateY(-57px);
+    }
+}
+/*进入页面之后，hover时添加的类做调整-end*/
+
+/*/!*吉祥物hover时的样式-start*!/*/
+.invalid-container:hover .mascot {
+    -webkit-animation-name: mascot-hover;
+    -moz-animation-name: mascot-hover;
+    -o-animation-name: mascot-hover;
+    animation-name: mascot-hover;
+    -webkit-animation-delay: 0s;
+    -moz-animation-delay: 0s;
+    -o-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-duration: 0.1s;
+    -moz-animation-duration: 0.1s;
+    -o-animation-duration: 0.1s;
+    animation-duration: 0.1s;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+/*吉祥物hover时的样式-end*/
+
+
+/*/!*吉祥物hover时动画定义-start*!/*/
+@keyframes mascot-hover {
+    0%{
+        -webkit-transform: translateY(-57px);
+        -moz-transform: translateY(-57px);
+        -ms-transform: translateY(-57px);
+        -o-transform: translateY(-57px);
+        transform: translateY(-57px);
+    }
+    100%{
+        -webkit-transform: translateY(-44px);
+        -moz-transform: translateY(-44px);
+        -ms-transform: translateY(-44px);
+        -o-transform: translateY(-44px);
+        transform: translateY(-44px);
+    }
+}
+/*/!*吉祥物hover时动画定义-end*!/*/
+
+/*阴影hover时的样式-start*/
+.invalid-container:hover .shadow {
+    -webkit-animation-name: shadow-hover;
+    -moz-animation-name: shadow-hover;
+    -o-animation-name: shadow-hover;
+    animation-name: shadow-hover;
+    -webkit-animation-delay: 0s;
+    -moz-animation-delay: 0s;
+    -o-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-duration: 0.1s;
+    -moz-animation-duration: 0.1s;
+    -o-animation-duration: 0.1s;
+    animation-duration: 0.1s;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+.after-init .shadow {
+    -webkit-animation-name: after-init-shadow-contract;
+    -moz-animation-name: after-init-shadow-contract;
+    -o-animation-name: after-init-shadow-contract;
+    animation-name: after-init-shadow-contract;
+    -webkit-animation-delay: 0s;
+    -moz-animation-delay: 0s;
+    -o-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-duration: 0.3s;
+    -moz-animation-duration: 0.3s;
+    -o-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+/*阴影hover时的样式-end*/
+
+/*阴影hover时的动画定义-start*/
+@keyframes shadow-hover {
+    100% {
+        -webkit-transform: scaleX(1.2);
+        -moz-transform: scaleX(1.2);
+        -ms-transform: scaleX(1.2);
+        -o-transform: scaleX(1.2);
+        transform: scaleX(1.2);
+    }
+}
+@keyframes after-init-shadow-contract {
+    0% {
+        -webkit-transform: scaleX(1.2);
+        -moz-transform: scaleX(1.2);
+        -ms-transform: scaleX(1.2);
+        -o-transform: scaleX(1.2);
+        transform: scaleX(1.2);
+    }
+    100% {
+        -webkit-transform: scaleX(1);
+        -moz-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+        -o-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+}
+/*阴影hover时的动画定义-end*/
+
+/*锁hover时的样式-start*/
+.invalid-container:hover .lock {
+    -webkit-animation-name: lock-hover;
+    -moz-animation-name: lock-hover;
+    -o-animation-name: lock-hover;
+    animation-name: lock-hover;
+    -webkit-animation-delay: 0s;
+    -moz-animation-delay: 0s;
+    -o-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-duration: 0.1s;
+    -moz-animation-duration: 0.1s;
+    -o-animation-duration: 0.1s;
+    animation-duration: 0.1s;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+/*锁hover时的样式-end*/
+
+/*幻影锁的样式-start*/
+.invalid-container:hover .phantom-lock{
+    -webkit-animation-name: phantom-lock-hover;
+    -moz-animation-name: phantom-lock-hover;
+    -o-animation-name: phantom-lock-hover;
+    animation-name: phantom-lock-hover;
+    -webkit-animation-delay: 0s;
+    -moz-animation-delay: 0s;
+    -o-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-duration: 0.2s;
+    -moz-animation-duration: 0.2s;
+    -o-animation-duration: 0.2s;
+    animation-duration: 0.2s;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
+    -o-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+.after-init .phantom-lock {
+    opacity: 0 !important;
+}
+/*幻影锁的样式-end*/
+
+/*锁hover时的动画定义-start*/
+@keyframes lock-hover {
+    0%{
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    50%{
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+    100%{
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+}
+/*锁hover时的动画定义-end*/
+
+/*幻影锁hover时的动画定义-start*/
+@keyframes phantom-lock-hover {
+    50% {
+        opacity: 0.5;
+        -webkit-transform: scale(1.3);
+        -moz-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        -o-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+    /*100%{*/
+        /*opacity: 0!important;*/
+    /*}*/
+}
+/*幻影锁hover时的动画定义-end*/
+
+/*返回登录hover时样式-start*/
+.invalid-container:hover .login {
+    /*opacity: 1;*/
+    -webkit-animation-name: login-expand;
+    -moz-animation-name: login-expand;
+    -o-animation-name: login-expand;
+    animation-name: login-expand;
+    -webkit-animation-delay: 0s;
+    -moz-animation-delay: 0s;
+    -o-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-duration: 0.1s;
+    -moz-animation-duration: 0.1s;
+    -o-animation-duration: 0.1s;
+    animation-duration: 0.1s;
+    -webkit-animation-timing-function: ease-in;
+    -moz-animation-timing-function: ease-in;
+    -o-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+/*返回登录hover时样式-end*/
+
+/*返回登录hover后的样式调整，覆盖初始化时的动画-start*/
+.after-init .login {
+    -webkit-animation-name: none;
+    -moz-animation-name: none;
+    -o-animation-name: none;
+    animation-name: none;
+}
+/*返回登录hover后的样式调整，覆盖初始化时的动画-end*/
+
+/*返回登录hover时动画定义-start*/
+@keyframes login-expand {
+    0%{
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+    40% {
+        -webkit-transform: scaleX(1.2) scaleY(1.08);
+        -moz-transform: scaleX(1.2) scaleY(1.08);
+        -ms-transform: scaleX(1.2) scaleY(1.08);
+        -o-transform: scaleX(1.2) scaleY(1.08);
+        transform: scaleX(1.2) scaleY(1.08);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+
+}
+/*返回登录hover时动画定义-end*/
+
+/*返回登录幻影样式-start*/
+.invalid-container:hover .phantom-login {
+    -webkit-animation-name: phantom-login-contract;
+    -moz-animation-name: phantom-login-contract;
+    -o-animation-name: phantom-login-contract;
+    animation-name: phantom-login-contract;
+    -webkit-animation-delay: 0s;
+    -moz-animation-delay: 0s;
+    -o-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-duration: 0.4s;
+    -moz-animation-duration: 0.4s;
+    -o-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+    -webkit-animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
+    -o-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+.after-init .phantom-login {
+    opacity: 0!important;
+}
+/*返回登录幻影样式-end*/
+
+/*返回登录幻影样式动画-start*/
+@keyframes phantom-login-contract {
+    0% {
+        opacity: 0;
+    }
+    8% {
+        opacity: 0.7;
+        -webkit-transform: scaleX(1.25) scaleY(1.2);
+        -moz-transform: scaleX(1.25) scaleY(1.2);
+        -ms-transform: scaleX(1.25) scaleY(1.2);
+        -o-transform: scaleX(1.25) scaleY(1.2);
+        transform: scaleX(1.25) scaleY(1.2);
+    }
+    /*90% {*/
+        /*opacity: 0;*/
+        /*-webkit-transform: scaleX(1.1) scaleY(1.08);*/
+        /*-moz-transform: scaleX(1.1) scaleY(1.08);*/
+        /*-ms-transform: scaleX(1.1) scaleY(1.08);*/
+        /*-o-transform: scaleX(1.1) scaleY(1.08);*/
+        /*transform: scaleX(1.1) scaleY(1.08);*/
+    /*}*/
+    100% {
+        opacity: 0;
+        -webkit-transform: scaleX(1.1) scaleY(1.05);
+        -moz-transform: scaleX(1.1) scaleY(1.05);
+        -ms-transform: scaleX(1.1) scaleY(1.05);
+        -o-transform: scaleX(1.1) scaleY(1.05);
+        transform: scaleX(1.1) scaleY(1.05);
+    }
+}
+/*返回登录幻影样式动画-end*/
+
+/*钥匙hover时样式-start*/
+.invalid-container:hover .key,
+.invalid-container:hover .bubble{
+    -webkit-animation-name: shake;
+    -moz-animation-name: shake;
+    -o-animation-name: shake;
+    animation-name: shake;
+    -webkit-animation-delay: 0s;
+    -moz-animation-delay: 0s;
+    -o-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-duration: 0.5s;
+    -moz-animation-duration: 0.5s;
+    -o-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-timing-function: ease-out;
+    -moz-animation-timing-function: ease-out;
+    -o-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+/*钥匙hover时样式-end*/
+
+/*钥匙、气泡覆盖初始化动画-start*/
+.after-init .key,
+.after-init .bubble {
+    font-size: 20px;
+    -webkit-animation-name: none;
+    -moz-animation-name: none;
+    -o-animation-name: none;
+    animation-name: none;
+}
+/*钥匙、气泡覆盖初始化动画-end*/
+
+/*钥匙hover时动画定义-start*/
+@keyframes shake {
+    10%{
+        -webkit-transform: translateY(10px);
+        -moz-transform: translateY(10px);
+        -ms-transform: translateY(10px);
+        -o-transform: translateY(10px);
+        transform: translateY(10px);
+    }
+    20%{
+        -webkit-transform: translateY(-9px);
+        -moz-transform: translateY(-9px);
+        -ms-transform: translateY(-9px);
+        -o-transform: translateY(-9px);
+        transform: translateY(-9px);
+    }
+    40%{
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+    }
+    60%{
+        -webkit-transform: translateY(-6px);
+        -moz-transform: translateY(-6px);
+        -ms-transform: translateY(-6px);
+        -o-transform: translateY(-6px);
+        transform: translateY(-6px);
+    }
+    100%{
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+/*钥匙hover时动画定义-end*/
